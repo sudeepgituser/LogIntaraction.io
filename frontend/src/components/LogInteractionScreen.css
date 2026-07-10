@@ -1,0 +1,30 @@
+.log-screen__split {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-top: 16px;
+}
+
+.log-screen__split-left {
+  flex: 1.4;
+  min-width: 0;
+}
+
+.log-screen__split-right {
+  flex: 1;
+  min-width: 320px;
+  border-left: 1px solid #e5e7eb;
+  padding-left: 20px;
+}
+
+@media (max-width: 900px) {
+  .log-screen__split {
+    flex-direction: column;
+  }
+  .log-screen__split-right {
+    border-left: none;
+    padding-left: 0;
+    border-top: 1px solid #e5e7eb;
+    padding-top: 16px;
+  }
+}

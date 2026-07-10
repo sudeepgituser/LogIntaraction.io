@@ -1,0 +1,37 @@
+.app-shell {
+  min-height: 100vh;
+}
+
+.app-header {
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  padding: 18px 32px;
+}
+
+.app-header__brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.app-header__mark {
+  background: var(--color-primary);
+  color: white;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  padding: 6px 10px;
+  border-radius: var(--radius-sm);
+}
+
+.app-header__title {
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--color-text-muted);
+}
+
+.app-main {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 32px 24px 64px;
+}
